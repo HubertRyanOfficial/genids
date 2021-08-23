@@ -4,12 +4,14 @@ const charactersLength = characters.length;
 
 // * create project id with 25 caracters
 
-function createIds(userId: boolean): string {
+function createSpec(length: number): string {
+  if (length <= 0) {
+    throw "The number must be greater than 0";
+  }
+
   let result = "";
 
   //
-
-  let length = userId ? 35 : 25;
 
   for (var i = 0; i < length; i++) {
     result += characters.charAt(Math.floor(Math.random() * charactersLength));
@@ -18,4 +20,4 @@ function createIds(userId: boolean): string {
   return result;
 }
 
-export default createIds;
+export default createSpec;

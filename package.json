@@ -1,6 +1,6 @@
 {
   "name": "genids",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A node library to generate unic ids to create new user id, new colletion id and others.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -10,12 +10,17 @@
   "scripts": {
     "build": "npx tsc --build",
     "clean": "npx tsc --build --clean",
-    "tsc": "tsc -p tsconfig.json"
+    "tsc": "tsc -p tsconfig.json",
+    "test": "npx jest"
   },
   "devDependencies": {
+    "@types/jest": "^27.0.1",
     "@types/node": "^16.7.1",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.5",
     "ts-node": "^10.2.1",
     "typescript": "^4.3.5"
   },
+  "test": "jest",
   "private": false
 }
