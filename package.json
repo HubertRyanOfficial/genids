@@ -1,6 +1,6 @@
 {
   "name": "genids",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A node library to generate unic ids to create new user id, new colletion id and others.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
