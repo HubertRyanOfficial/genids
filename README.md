@@ -1,6 +1,4 @@
 ---
-
-
 ---
 
 <p align="center">
@@ -13,11 +11,13 @@
 $ yarn add genids
 
 </code></pre>
+
 <p>or</p>
 <pre class=" language-sh"><code class="prism  language-sh">
 $ npm install genids --save
 
 </code></pre>
+
 <h2 id="getting-started-🧨">Getting Started 🧨</h2>
 <p>A very easy library to use in your node projects. There are two methods for each type of data that will receive identifiers, such as: creating identifiers for <strong>user data</strong> or identifiers for <strong>other types</strong> of data like colletions.<br>
 <img src="https://imgur.com/Ti1nuwU.png" alt="GenId Create User Id"></p>
@@ -33,7 +33,5 @@ $ npm install genids --save
 
 <p>By <strong>Hubert Ryan</strong> 😋</p>
 <pre><code>
-  
 
 </code></pre>
-
